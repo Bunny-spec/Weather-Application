@@ -1,5 +1,5 @@
 console.log("Client side javascript file is loaded!");
-
+// weather fetching frm external api
 fetch("http://localhost:3000/weather?address=solapur").then((response) => {
   response.json().then((data) => {
     if (data.error) {
